@@ -62,3 +62,15 @@ RSpec.describe Diary do
 
 
 5. Implement the Behaviour
+
+
+
+Reading time
+Words per minute
+String length
+
+String length / wpm = reading time
+if time taken <= reading time, return string
+repeat for all strings available
+else ignore string
+if no strings match, return "None available"
