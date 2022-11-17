@@ -14,6 +14,7 @@ RSpec.describe ToDo do
             todo.add("Task numero uno")
             expect(todo.view).to eq ["Task numero uno"]
         end
+        
         it "raises error if string is empty" do
             todo = ToDo.new
             expect{todo.add("")}.to raise_error "No task!"
